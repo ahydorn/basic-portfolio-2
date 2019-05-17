@@ -1,12 +1,81 @@
 body {
-    background-image: url("http://eskipaper.com/images/gray-wallpaper-2.jpg")
+    background-image: url("../images/white-waves.png");
 }
 
 .jumbotron {
     text-align: center;
-    background-color: #303030;
-    color: lightgray;
+    /* background-color: #303030; */
+    background-image: url("http://eskipaper.com/images/gray-wallpaper-2.jpg");
+    color: white;
     font-family: arial;
     border-bottom: 4px solid rgb(130, 126, 126);
     height: 250px;
+}
+
+#about-me {
+    border: 2px solid olive;
+    padding: 25px;
+    length: 200px;
+    height: 500px;
+    width: 960px;
+    margin-left: 20%;
+    background-color: rgb(230, 230, 230);
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+#about-me-heading {
+    color: olive;
+    font-size: 20pt;
+    border-bottom: 2px solid olive;
+    font-size: 30pt;
+}
+
+#me-pic {
+    float: left;
+    padding-right: 20px;
+}
+
+
+/* Begin Contact Page CSS */
+
+#contact {
+    color: olive;
+    border-bottom: 2px solid olive;
+}
+
+#contact-heading: {
+    font-size: 30pt;
+}
+
+#message-submission {
+    border: 2px solid olive;
+    padding: 20px;
+    height: 550px;
+    width: 960px;
+    margin-left: 20%;
+    color: black;
+    background-color: rgb(230, 230, 230);
+}
+
+textarea {
+    height: 200px;
+    width: 500px;
+    color: darkgray;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+
+/* Portfolio Page CSS Start */
+
+#portfolio {
+    color: olive;
+    border-bottom: 2px solid olive;
+}
+
+#portfolio-heading: {
+    font-size: 30pt;
 }
