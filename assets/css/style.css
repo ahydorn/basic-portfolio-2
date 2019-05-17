@@ -1,0 +1,12 @@
+body {
+    background-image: url("http://eskipaper.com/images/gray-wallpaper-2.jpg")
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #303030;
+    color: lightgray;
+    font-family: arial;
+    border-bottom: 4px solid rgb(130, 126, 126);
+    height: 250px;
+}
